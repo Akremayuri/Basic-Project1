@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+/* image section*/
+
+.sec1 {
+    padding: 60px 20px;
+    background-color:#f3e8ff;
+    
+    
+}
+
+.program {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    flex-wrap: wrap; 
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+}
+
+.left h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000080;
+}
+
+.left p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.highlight {
+    color: #f44336;
+    font-weight: bold;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+   
+}
+
+/* Responsive Design */
+@media(max-width: 768px) {
+  .program {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left, .right {
+    flex: 1 1 100%;
+  }
+
+  .right img {
+    margin-top: 20px;
+  }
+}
+
+/* Testimonial Section*/
+
+.testimonial {
+  padding: 60px 10%;
+  background: #ffffff;
+  text-align: center;
+  background-color: #f3e8ff;;
+}
+
+.testimonial h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #000080;
+  text-transform: uppercase;
+}
+
+.testimonial, .subtitle {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+}
+.child1{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.child2{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.testimonial-card {
+  flex: 1 1 250px;
+  max-width: 300px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+  flex-wrap: wrap;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-8px);
+  background: rgb(242, 189, 233);
+  
+}
+
+.testimonial-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.testimonial-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color:black;
+}
+
+.testimonial-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.testimonial blockquote {
+     margin: 0;
+    color: #1f2937; 
+    }
+  .testimonial blockquote p {
+     margin: 0 0 10px 0; 
+     font-size: 14px;
+      line-height: 1.45;
+     }
+  .testimonial footer { 
+    font-size: 16px;
+     color: #374151;
+      display: block;
+ }
+  .testimonial .meta { 
+    color: #6b7280; 
+    font-weight: 600; 
+    margin-left: 6px; 
+}
+
+
+/* Contact Page */
+
+/* Contact section */
+
+.contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      min-height: 100vh;
+      padding: 50px;
+      background-color: white;
+      background-color: #b3cce0;
+    }
+
+    .contact-form {
+      flex: 1;
+      padding: 40px;
+      max-width: 600px;
+    }
+
+    .contact-form h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .contact-form p {
+      font-size: 17px;
+      color: #080808;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+    .contact-form input:hover{
+     box-shadow: 0 0 20px 0px #ffb3ff;
+      border: 2px solid #ffb3ff;;
+    }
+
+    .contact-form textarea:hover{
+      box-shadow: 0 0 20px 0px #ffb3ff;
+      border: 2px solid #ffb3ff;;
+    }
+
+    .contact-form button {
+      background-color: #28a745;
+      color: white;
+      border: 1px solid black;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #218838;
+      border: 2px solid white;
+    }
+
+
+    
+/* map section */
+    .map {
+      flex: 1;
+      min-height: 400px;
+    }
+
+    .map iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    @media (max-width: 768px) {
+      .contact-section {
+        flex-direction: column;
+      }
+
+      .map {
+        height: 300px;
+      }
+    }
+
+
+
+
+  
+

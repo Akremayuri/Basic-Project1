@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+ <head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="Stylesheet" href="style.css"> 
+    
+    <script src="https://kit.fontawesome.com/8b3d3ab972.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+     </head> 
+     <body> 
+      <div class="header"> 
+        <nav> <div class="nav-div"> 
+          <a href="#"> <img src="images/Navy_White_University_Elegant_Logo-removebg-preview.png" alt="logo" loading="lazy"> </a> 
+          <div class="nav-links" id="navLinks"> 
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
+            <ul> 
+              <li ><a href="index.html" class="active">Home</a></li> 
+              <li><a href="about_us.html">About Us</a></li> 
+              <li class="dropdown"><a href="programmed.html">Programmed Offers</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#btech">Undergraduate Programs</a></li>
+                      <li><a href="#mtech">Postgraduate Programs</a></li>
+                      <li><a href="#mba">Management Courses</a></li>
+                      
+                  </ul>
+              </li>
+              <li><a href="placement.html">Placements</a></li>
+              <li><a href="contact.html">Contact Us</a></li> 
+            </ul>
+           </div> 
+           <i  class="fa-solid fa-bars" onclick="showMenu()"></i> 
+           </div> 
+        <div class="text-box"> 
+          <h1>SparkTech University</h1> 
+          <h5>"Empowering Future Innovators Through Excellence in Education and Research"</h5> 
+          <p> Welcome to SparkTech University of Technology (SPT) – a premier institution committed to nurturing engineers, scientists, <br>and leaders who can transform the world with innovation, knowledge, and integrity.</p> 
+          <a class="hero-btn" href="about_us.html">Explore</a> </div> 
+          </nav> 
+          <!--Javascript code for mobile device menu--> 
+          <script> 
+          var navLinks= document.getElementById("navLinks")
+           function showMenu()
+           { navLinks.style.right="0"; } 
+           function hideMenu()
+           { navLinks.style.right="-200px"; } 
+           </script> 
+           </div>
+
+
+    <section >
+        <div class="highlights">
+          <h1>At a Glance</h1>
+          <div class="row">
+            <div class="col1">
+              <i class="fa-solid fa-award" style="color: #de9517;"></i>
+              <h3>NACC "A++"</h3>
+              <p>Recognized as one of the few universities in India with the highest NAAC grade, reflecting academic excellence, research quality, and world-class infrastructure.</p>
+            </div>
+            <div class="col1">
+              <i class="fa-solid fa-trophy" style="color: #db1a1a;"></i>
+              <h3>Top 10<sup>th</sup> Ranked</h3>
+              <p><p>Consistently ranked among the Top 10 Universities in India for Engineering & Technology by national ranking bodies (NIRF, Outlook, Times Higher Education).</p>
+
+            </div>
+            <div class="col1">
+              <i class="fa-solid fa-graduation-cap" style="color: #1e2024;"></i>
+              <h3> Great Placement</h3>
+              <p>With over 200+ recruiting partners including Microsoft, TCS, Infosys, and Amazon, our students achieve outstanding placements with attractive salary packages.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Why choose Us Section-->
+
+    <section class="why-choose-us">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <div class="choose-wrapper">
+
+    <!-- Left Side (Cards) -->
+    <div class="choose-left">
+      <div class="choose-card">
+        <span class="icon"><i class="fa-solid fa-graduation-cap" style="color: #1e2024;"></i></span>
+        <div>
+          <h3>Academic Excellence</h3>
+          <p>Industry-driven curriculum preparing students for real-world challenges.</p>
+        </div>
+      </div>
+
+      <div class="choose-card">
+        <span class="icon"><i class="fa-solid fa-building" style="color: #db1a1a;"></i></span>
+        <div>
+          <h3>Modern Infrastructure</h3>
+          <p>Smart classrooms, state-of-the-art labs, digital libraries, and innovation centers.</p>
+        </div>
+      </div>
+
+      <div class="choose-card">
+        <span class="icon"><i class="fa-solid fa-earth-asia" style="color: #74C0FC;"></i></span>
+        <div>
+          <h3>Global Recognition</h3>
+          <p>Strong international collaborations and student exchange programs with reputed global universities.</p>
+        </div>
+      </div>
+    
+
+      <div class="choose-card">
+        <span class="icon"><i class="fa-solid fa-briefcase" style="color: #da17e8;"></i></span>
+        <div>
+          <h3>Great Placements</h3>
+          <p>95%+ placement record with global recruiters like Infosys & Microsoft.</p>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- Right Side (Image) -->
+    <div class="choose-right">
+      <img src= "images/students.jpg", alt="College Campus">
+    </div>
+
+  </div>
+</section>
+
+
+<!--Call to Action-->
+
+<section>
+  <div class="admission-cta">
+        <h2>Ready to Begin Your Journey?</h2>
+    
+        <p>
+        For admission, click the button below and fill out the form.  
+        Our admissions team will connect with you shortly.
+        </p>
+      <a  class=btn href="contact.html">
+       Apply for Admission
+    </a>
+  </div>
+
+</section>
+
+<!-- Footer Section -->
+<footer>
+  <div class="footer">
+
+    <!-- About University -->
+    <div class="f1">
+      <h3 style="color: #fff;">ABOUT UNIVERSITY</h3>
+      <p>
+        SparkTech University is committed to academic excellence, 
+        innovation, and holistic development of students. 
+      </p>
+      <p>
+        Accredited with NAAC A++ and ranked among the Top 10 engineering colleges in India, 
+        we nurture future-ready engineers and leaders.
+      </p>
+      <div style="margin-top: 15px;">
+        <a href="#" style="color: #fff; margin-right: 10px; font-size: 20px;"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" style="color: #fff; margin-right: 10px; font-size: 20px;"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" style="color: #fff; margin-right: 10px; font-size: 20px;"><i class="fa-brands fa-facebook"></i></a>
+        
+      </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-child" style="flex: 1; min-width: 250px; margin: 15px; flex-wrap: wrap;">
+      <h3 style="color: #fff;">CONTACT US</h3>
+      <p><i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i> Kolhapur, Maharashtra, India</p>
+      <p><i class="fa-solid fa-envelope" style="color: #74C0FC;"></i>info@sptuniversity.edu</p>
+      <p><i class="fa-solid fa-phone-volume" style="color: #74C0FC;"></i> +91 98765 43210</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-child" style="flex: 1; min-width: 250px; margin: 15px;">
+      <h3 style="color: #fff;">QUICK LINKS</h3>
+      <p><a href="#" style="color:#ccc; text-decoration:none;"> <i class="fa-solid fa-graduation-cap" style="color: #74C0FC;"></i>Admission</a></p>
+      <p><a href="#" style="color:#ccc; text-decoration:none;"><i class="fa-solid fa-book" style="color: #de9517;"></i>Courses</a></p>
+      <p><a href="#" style="color:#ccc; text-decoration:none;"><i class="fa-solid fa-building" style="color: #74C0FC;"></i>Campus Life</a></p>
+      <p><a href="#" style="color:#ccc; text-decoration:none;"><i class="fa-solid fa-briefcase" style="color: #da17e8;"></i> Placements</a></p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div style="text-align: center; margin-top: 10px; padding-top: 10px; font-size: 14px;">
+    © 2025 SparkTech University | All Rights Reserved
+  </div>
+</footer>
+
+
+
+</div>
+
+
+  </body>
+</html>
+           

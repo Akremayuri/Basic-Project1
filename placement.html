@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+  <head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="Stylesheet" href="about.css">
+    <link rel="Stylesheet" href="style.css"> 
+     <link rel="Stylesheet" href="programmed.css"> 
+     <link rel="Stylesheet" href="placementContact.css">
+    <script src="https://kit.fontawesome.com/8b3d3ab972.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>    
+ </head> 
+     <body>
+    <div class="main">
+      <div class="about"> 
+        <nav> 
+            <div class="nav-div"> 
+            <a href="#"> <img src="images/Navy_White_University_Elegant_Logo-removebg-preview.png" alt="logo" loading="lazy"> </a> 
+            <div class="nav-links" id="navLinks"> 
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
+
+            <ul> 
+              <li><a href="index.html">Home</a></li> 
+              <li><a href="about_us.html">About Us</a></li> 
+              <li class="dropdown"><a href="programmed.html">Programmed Offers</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#btech">Undergraduate Programs</a></li>
+                      <li><a href="#mtech">Postgraduate Programs</a></li>
+                      <li><a href="#mba">Management Courses</a></li>
+                      
+                  </ul>
+              </li>
+              <li><a href="placement.html">Placements</a></li>
+              <li><a href="contact.html">Contact Us</a></li> 
+            </ul>
+             
+           </div> 
+           <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+
+
+           <!--Javascript code for mobile device menu--> 
+          <script>
+
+          var navLinks= document.getElementById("navLinks")
+           function showMenu()
+           { navLinks.style.right="0"; } 
+           function hideMenu()
+           { navLinks.style.right="-200px"; } 
+
+           </script> 
+
+        </nav>
+        </div> 
+
+        <!--SECTION OF image-->
+        <section class="sec1">
+            <div class="program">
+                <div class="left">
+                    <h1>Top Recruiters Who Trust Our Talent</h1>
+                    
+                    <p>At <span class="highlight">[SparkTech University]</span>, our students don’t just graduate with degrees — they step into careers with confidence.
+                         Our dedicated Training & Placement Cell connects talent with opportunities at leading global organizations.
+                    
+                    </p>
+                </div>
+                <div class="right">
+                    <img src="images/recrutors charts.jpg",alt="image">
+                </div>
+            
+            </div>
+
+
+        </section>
+
+    
+<!--Testimonials Section-->
+
+<!--Testimonials Section-->
+<section class="testimonial">
+    <h2>Meet Our Achievers</h2>
+    <p class="subtitle">
+        Real stories from recent graduates who secured roles at leading companies through our Placement Cell.
+    </p>
+
+    <div class="testimonial-container">
+        <div class="child1">
+            <!-- testimonial 1 -->
+            <div class="testimonial-card">
+                <img src="images/girl1.jpg" alt="Ramya Singh - Infosys">
+                <p>“The mentorship and training helped me land my dream role at Infosys. The mock interviews were especially helpful.”</p>
+                <footer>
+                    <strong>Ramya Singh</strong><span class="meta"> — Software Engineer, Infosys</span>
+                </footer>
+            </div>
+
+            <!-- testimonial 2 -->
+            <div class="testimonial-card">
+                <img src="images/girl2.jpg" alt="Neha Verma - Deloitte">
+                <p>“Industry mentors taught us how to present projects and solve case studies — that gave me a real advantage in interviews.”</p>
+                <footer>
+                    <strong>Neha Verma</strong><span class="meta"> — Data Analyst, Deloitte</span>
+                </footer>
+            </div>
+
+            <!-- testimonial 3 -->
+            <div class="testimonial-card">
+                <img src="images/boy1.jpg" alt="Aman Patil - Accenture">
+                <p>“From coding tests to interview prep, the Placement Cell guided me every step. The campus drives were well-organized.”</p>
+                <footer>
+                    <strong>Aman Patil</strong><span class="meta"> — Backend Developer, Accenture</span>
+                </footer>
+            </div>
+        </div>
+
+        <div class="child2">
+            <!-- testimonial 4 -->
+            <div class="testimonial-card">
+                <img src="images/boy2.jpg" alt="Rajesh Kulkarni - Amazon">
+                <p>“Internships facilitated by the placement team gave me real-world exposure — that was key to getting an offer from Amazon.”</p>
+                <footer>
+                    <strong>Rajesh Kulkarni</strong><span class="meta"> — Cloud Engineer, Amazon</span>
+                </footer>
+            </div>
+
+            <!-- testimonial 5-->
+            <div class="testimonial-card">
+                <img src="images/boy4.jpg" alt="Siddharth Rao - Google">
+                <p>“The hands-on workshops and portfolio reviews helped me build a strong GitHub profile — Google noticed my projects.”</p>
+                <footer>
+                    <strong>Siddharth Rao</strong><span class="meta"> — Frontend Developer, Google</span>
+                </footer>
+            </div>
+
+            <!-- testimonial 6 -->
+            <div class="testimonial-card">
+                <img src="images/girl3.jpg" alt="Priya Mehta - TCS">
+                <p>“Aptitude training improved my test scores, while soft-skills sessions boosted my confidence during HR rounds.”</p>
+                <footer>
+                    <strong>Priya Mehta</strong><span class="meta"> — QA Engineer, TCS</span>
+                </footer>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!--Footer section-->
+
+  
+  <footer>
+    <div class="footer">
+
+      <!-- About University -->
+      <div class="f1">
+        <h3 style="color: #fff;">ABOUT UNIVERSITY</h3>
+        <p>
+          SparkTech University is committed to academic excellence, 
+          innovation, and holistic development of students. 
+        </p>
+        <p>
+          Accredited with NAAC A++ and ranked among the Top 10 engineering colleges in India, 
+          we nurture future-ready engineers and leaders.
+        </p>
+        <div style="margin-top: 15px;">
+          <a href="#" style="color: #fff; margin-right: 10px; font-size: 20px;"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" style="color: #fff; margin-right: 10px; font-size: 20px;"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" style="color: #fff; margin-right: 10px; font-size: 20px;"><i class="fa-brands fa-facebook"></i></a>
+          
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div style="flex: 1; min-width: 250px; margin: 15px; flex-wrap: wrap;">
+        <h3 style="color: #fff;">CONTACT US</h3>
+        <p><i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i> Kolhapur, Maharashtra, India</p>
+        <p><i class="fa-solid fa-envelope" style="color: #74C0FC;"></i>info@sptuniversity.edu</p>
+        <p><i class="fa-solid fa-phone-volume" style="color: #74C0FC;"></i> +91 98765 43210</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div  style="flex: 1; min-width: 250px; margin: 15px;">
+        <h3 style="color: #fff;">QUICK LINKS</h3>
+        <p><a href="#" style="color:#ccc; text-decoration:none;"> <i class="fa-solid fa-graduation-cap" style="color: #74C0FC;"></i>Admission</a></p>
+        <p><a href="#" style="color:#ccc; text-decoration:none;"><i class="fa-solid fa-book" style="color: #de9517;"></i>Courses</a></p>
+        <p><a href="#" style="color:#ccc; text-decoration:none;"><i class="fa-solid fa-building" style="color: #74C0FC;"></i>Campus Life</a></p>
+        <p><a href="#" style="color:#ccc; text-decoration:none;"><i class="fa-solid fa-briefcase" style="color: #da17e8;"></i> Placements</a></p>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div style="text-align: center; margin-top: 10px; padding-top: 10px; font-size: 14px;">
+      © 2025 SparkTech University | All Rights Reserved
+    </div>
+  </footer>
+
+
+
+
+</div>
+</body>
+</html>
